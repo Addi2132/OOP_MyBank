@@ -1,5 +1,3 @@
-import inquirer from "inquirer";
-
 interface IBankAccount {
     Debit(decimal: number, d: number): string,
     Credit(decimal: number, d: number): string,
